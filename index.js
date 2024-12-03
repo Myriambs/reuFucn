@@ -17,7 +17,7 @@ app.use('/students', studentRoutes);
 // MongoDB Connection
 const db=async()=>{
     try{
-    await  mongoose.connect('mongodb+srv://bensalahmeriem0:mwo8LxccgItqTNEZ@cluster0.fwzig.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'),{
+    await  mongoose.connect('mongodb+srv://<>>:<>>@cluster0.fwzig.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'),{
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }
